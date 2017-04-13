@@ -17,3 +17,11 @@ datalist {
     display: none;
 }
 
+textarea, #send, #tag-name, label {
+	margin-left: 50px;
+}
+
+#tag-area {
+	display: none;
+}
+
