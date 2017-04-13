@@ -24,7 +24,7 @@ function displayImage(){
 function checkForURL(){
 	var text = document.getElementById("message").value;
 		if(text.match("((http://|https://)?www\..*)")){
-			alert("hello");
+			
 			document.getElementById("tag-area").style.display = "block";
 		} else {
 			document.getElementById("tag-area").style.display = "none";
