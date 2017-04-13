@@ -1,0 +1,19 @@
+.right-column {
+	overflow: hidden;
+}
+
+.form-group {
+	width: 70%;
+}
+
+.user-image {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+datalist { 
+    display: none;
+}
+
