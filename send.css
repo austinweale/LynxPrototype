@@ -25,3 +25,7 @@ textarea, #send, #tag-name, label {
 	display: none;
 }
 
+#sent-message {
+	display: none;
+}
+

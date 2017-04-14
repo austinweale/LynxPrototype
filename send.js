@@ -11,6 +11,9 @@ window.onload = function(){
 
 	var textarea = document.getElementById("message");
 	textarea.onkeydown = checkForURL;
+
+	var sendButton = document.getElementById("send");
+	sendButton.onclick = toggleSent;
 }
 
 function displayImage(){
@@ -29,4 +32,9 @@ function checkForURL(){
 		} else {
 			document.getElementById("tag-area").style.display = "none";
 		}
+}
+
+function toggleSent(){
+	document.getElementById("message-area").style.display = "none";
+	document.getElementById("sent-message").style.display = "block";
 }
