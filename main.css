@@ -10,6 +10,7 @@ footer {
 }
 
 
+
 #createlink {
   color: #9d9d9d;
   height: 50px;
@@ -82,6 +83,13 @@ footer {
   font-size: 20px;
 }
 
+
+
+
+a, a:hover, a:focus{
+  text-decoration: none;
+  color: #000;
+}
 
 
 /*
