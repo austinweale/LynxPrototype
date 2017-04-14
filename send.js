@@ -26,7 +26,7 @@ function displayImage(){
 
 function checkForURL(){
 	var text = document.getElementById("message").value;
-		if(text.match("((http://|https://)?www\..*)")){
+		if(text.match("((http://|https://)?www\..*\.com)")){
 			
 			document.getElementById("tag-area").style.display = "block";
 		} else {
