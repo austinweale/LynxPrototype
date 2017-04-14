@@ -9,6 +9,54 @@ footer {
   padding: 30px 0;
 }
 
+.navbar-brand {
+  width: 125px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#filters h2 {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#filter-dates .col-sm-5 {
+  padding-right: 0px;
+}
+
+#filter-sr #sr-submit {
+  margin-left: 10px
+}
+
+.link {
+  border: 1px #ccc solid;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.link .link-tag {
+  margin-right: 7px;
+  padding: 5px;
+  background-color: #eee
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.input-group-sm {
+  width: 50%
+}
+
+.btn-house {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
 /*
  * Off Canvas
  * --------------------------------------------------
@@ -38,9 +86,5 @@ footer {
     top: 0;
     z-index: 1;
   }
-
-  .row-offcanvas-right.active {
-    
-  }
-
 }
+
